@@ -1,0 +1,28 @@
+# 深度学习框架
+torch>=1.10.0
+
+# HuggingFace 生态
+transformers>=4.20.0
+adapter-transformers>=3.0.0       # 用于加载 Adapter 模型
+sentence-transformers>=2.2.0
+
+# 检索与相似度
+scikit-learn>=1.0.0
+faiss-cpu>=1.7.0
+rank-bm25>=0.2.0
+
+# 中文分词
+jieba>=0.42.1
+
+# 网络请求
+requests>=2.25.0
+
+# Web 界面（建议使用较新版本以获得更好的组件支持）
+gradio>=4.0.0
+
+# 数值计算
+numpy>=1.19.0
+
+# 可选（评估用）
+rouge-score>=0.1.2
+tqdm>=4.62.0
